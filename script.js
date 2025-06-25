@@ -37,7 +37,7 @@ let enemySpawnPointX = 0;
 let enemySpawnPointY = 0;
 
 let allySpawnPointX = 140;
-let allySpawnPointY = 440;
+let allySpawnPointY = 600;
 
 let allyArray = [];
 
