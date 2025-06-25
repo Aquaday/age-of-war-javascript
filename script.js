@@ -84,21 +84,6 @@ function update() {
   }
 }
 
-// context.drawImage(
-//   baseImage,                 // The image to draw
-
-//   0,                         // sx: source x (from image) → start at the left of the image
-//   0,                         // sy: source y (from image) → start at the top of the image
-//   baseImage.width,           // sWidth: width of the image portion to draw
-//   baseImage.height,          // sHeight: height of the image portion to draw
-
-//   0,                         // dx: destination x (on canvas) → draw from left edge
-//   canvas.height - baseImage.height / scaling, // dy: destination y → draw near bottom
-
-//   baseImage.width / scaling, // dWidth: scale the image horizontally
-//   baseImage.height / scaling // dHeight: scale the image vertically
-// );
-
 let gameRunning = setInterval(update, 30);
 
 class caveMelee {
