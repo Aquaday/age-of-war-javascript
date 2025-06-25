@@ -2,6 +2,22 @@ const canvas = document.querySelector('#canvas');
 
 let context;
 
+
+canvas.addEventListener("click", (e) => {
+  const rect = canvas.getBoundingClientRect();
+  const x = e.clientX - rect.left;
+  const y = e.clientY - rect.top;
+
+  console.log(x, y)
+  if (x < 500 && y < 500) {
+    console.log("noe")
+  }
+  if(x > 200 && x < 250 && y > 200 && y < 250) {
+    console.log("heisann")
+  }
+})
+
+
 context = canvas.getContext('2d');
 
 let backgroundImage = new Image();
